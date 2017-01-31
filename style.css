@@ -1,0 +1,80 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	color: #555555;
+}
+
+.header-nav {
+	float: right;
+	margin: 10px 30px 60px 0;
+}
+
+.header-nav a {
+	padding: 20px 20px 0 0;
+	font-size: 13px;
+}
+
+.sign-in {
+	border: none;
+	background-color: #4584EF;
+	color: #FFFFFF;
+	padding: 10px 15px;
+	border-radius: 2px;
+}
+
+div.container {
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+section.content {
+	text-align: center;
+	clear: right;
+}
+
+.search {
+	display: block;
+	margin: 0 auto 30px;
+	width: 40%;
+	padding: 10px 5px;
+}
+
+.google-button {
+	border: none;
+	background-color: #F7F7F7;
+	color: #555555;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+
+.footer-nav {
+	background-color: #F2F2F2;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #E4E4E4;
+}
+
+.footer-nav a {
+	padding: 20px;
+	font-size: 13px;
+}
+
+.footer-nav-left {
+	float: left;
+	width: 50%;
+}
+
+.footer-nav-right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}

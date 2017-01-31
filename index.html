@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
         <meta charset="utf-8">
         <title>Google</title>
     </head>
     <body>
-        <nav>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <button type="button">Sign In</button>
-        </nav>
-        
-        <section>
-            <img src="images/google_homepage.jpg" alt="Fred Korematsu's 98th Birthday">
-            <form action="#">
-                <input type="text">
-                <button type="submit">Google Search</button>
-                <button type="button">I'm Feeling Lucky</button>
-            </form>
-        </section>
+        <div class="container">
+            <nav class="header-nav">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <button class="sign-in" type="button"><strong>Sign In</strong></button>
+            </nav>
+            
+            <section class="content">
+                <img src="images/google_homepage.jpg" alt="Fred Korematsu's 98th Birthday">
+                <form action="#">
+                    <input class="search" type="text">
+                    <button class="google-button" type="submit"><strong>Google Search</strong></button>
+                    <button class="google-button" type="button"><strong>I'm Feeling Lucky</strong></button>
+                </form>
+            </section>
 
-        <footer>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">About</a>
+            <footer class="footer-nav">
+                <div class="footer-nav-left">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                    <a href="#">About</a>
+                </div>
 
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </footer>
-
+                <div class="footer-nav-right">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>
+                </div>
+            </footer>
+        </div>
 
     </body>
 </html>
