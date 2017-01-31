@@ -61,11 +61,14 @@ section.content {
 	position: absolute;
 	bottom: 0;
 	border-top: 1px solid #E4E4E4;
+	line-height: 40px;
 }
 
-.footer-nav a {
-	padding: 20px;
+.footer-nav ul li {
+	padding: 20px 20px 0;
 	font-size: 13px;
+	display: inline;
+	list-style-type: none;
 }
 
 .footer-nav-left {
